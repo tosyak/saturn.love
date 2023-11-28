@@ -43,5 +43,5 @@ At the heart of the saturn.love app is the Bloc (Business Logic Component) archi
 The saturn.love app is proprietary software; all rights are reserved by the saturn.love team.
 
 
-**Contact**: For support, feedback, or inquiries, reach out at [Contact Me](mailto:vitali.danichki@gmail.com).
+**Contact**: For support, feedback, or inquiries, reach out at [vitali.danichki@gmail.com](mailto:vitali.danichki@gmail.com).
 
