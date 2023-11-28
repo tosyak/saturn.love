@@ -16,7 +16,6 @@ main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
 
-  // FirebaseAnalytics analytics = FirebaseAnalytics.instance;
 
   FlutterError.onError = (errorDetails) {
     FirebaseCrashlytics.instance.recordFlutterFatalError(errorDetails);
@@ -28,13 +27,7 @@ main() async {
 
   await Hive.initFlutter();
 
-  resetApp() async {
-    await UserSharedPreferences().removeUserId();
-    await UserSharedPreferences().removeUserData();
-    await deleteHiveBoxes();
-  }
 
-  // resetApp();
 
   runApp(
     Phoenix(
